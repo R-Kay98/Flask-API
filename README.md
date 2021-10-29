@@ -12,7 +12,7 @@ Simple API that fetches data from the API: <https://api.hatchways.io/assessment/
 `python app.py`
 
 * Once flask is running, to get the posts simply go to a webbrowser and type:
-<http://127.0.0.1:5000/api/posts?tags=\<tags>&sortBy=\<sortBy>&direction=\<direction>>
+<http://127.0.0.1:5000/api/posts?tags=(tags)&sortBy=(sortBy)&direction=(direction)>
 
 * The sortBy and direction parameters are both optional but will send an error if 
 incorrectly entered.
